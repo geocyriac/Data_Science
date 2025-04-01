@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split  # For train/test split
 from sklearn.metrics import mean_squared_error, mean_absolute_error  # Performance metrics
 
 # Load the CSV file into a DataFrame
-data = pd.read_csv("Advertising.csv")  # Ensure the correct path is specified
+data = pd.read_csv("data/advertising.csv")
 
 # Display the first few rows of the DataFrame
 data.head()
